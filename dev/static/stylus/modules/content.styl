@@ -1,0 +1,438 @@
+section.content
+	font-family mainFount
+
+.our-work-label
+	size(58px)
+	background url('../img/content/arrow.png') 0 0 no-repeat
+	margin 0 auto 52px
+	
+.our-work-title
+	margin-bottom 74px
+	color paragraphColor
+	font-family navFount
+	font-size rem(40)
+	line-height 1.9
+	text-align center
+	
+.our-work-desc
+	margin-bottom 158px
+	p
+		color descColor
+		font-family navFount
+		font-size rem(14)
+		line-height 1.8
+		text-align center
+	
+	p:first-child
+		margin-bottom 58px
+		
+/*Tabs*/
+
+ul.tabs
+	width 100%
+	max-width 961px
+	margin 0 auto
+	display flex
+	justify-content space-between
+	flex-wrap wrap
+	
+ul.tabs
+	padding-bottom 45px
+	border-bottom 1px solid underlineColor
+	margin-bottom 56px
+
+	li
+		a
+			position relative
+			padding-left 73px
+			color pointColor
+			font-family lightFount
+			font-size rem(34)
+			
+			span:first-child
+				position absolute
+				top 12px
+				left 15px
+				color #fff
+				font-size rem(25)
+				z-index 2
+
+			&:before
+				position absolute
+				content ''
+				display block
+				size(43px)
+				border-radius 50%
+				background-color pointColor
+				z-index 2
+				
+			&:hover
+				&:after
+					position absolute
+					top 85px
+					content ''
+					display block
+					width 100%
+					height 1px
+					background-color hoverPointColor
+					z-index 2
+					
+				&:before
+					position absolute
+					content ''
+					display block
+					size(43px)
+					border-radius 50%
+					background-color hoverPointColor
+					z-index 2
+					
+/*End of Tabs*/
+
+.booking
+	position relative
+	width 100%
+	max-width 868px
+	margin 0 auto 112px
+	
+.icon-eyeglasses
+	display inline-block
+	margin-right 94px
+	size(113px,101px)
+	fill #26a6d1
+	vertical-align bottom
+	
+.booking-text
+	display inline-block
+	width 100%
+	max-width 650px
+
+.booking-title
+	margin-bottom 40px
+	color hoverPointColor
+	font-size rem(30)
+	font-family mainFount
+	
+.booking-desc
+	color descColor
+	font-size rem(14)
+	font-family mainFount
+	line-height 1.5
+	
+.projects-buyers-box
+	width 100%
+	max-width 1300px
+	margin 0 auto 83px
+	display flex
+	flex-wrap wrap
+	
+.projects
+	width 100%
+	max-width 650px
+	padding 47px 73px 47px 107px
+	background-color propertiesColor
+	
+.projects-pict-1
+	display inline-block
+	margin 30px 73px 0 0
+	size(135px,112px)
+	background url('../img/content/sofa.png') 0 0 no-repeat
+	vertical-align top
+
+.buyers
+	width 100%
+	max-width 650px
+	padding 47px 73px 47px 141px
+	background-color buyersColor
+	
+.projects-pict-2
+	display inline-block
+	margin 30px 73px 0 0
+	size(101px,92px)
+	background url('../img/content/wallet.png') 0 0 no-repeat
+	vertical-align top
+	
+.projects-text
+	display inline-block
+	width 100%
+	max-width 257px
+
+.projects-title,
+.buyers-title
+	margin-bottom 43px
+	color pointTitleColor
+	font-family mainFount
+	font-size rem(25)
+	
+.projects-desc,
+.buyers-desc
+	margin-bottom 20px
+	color descColor
+	font-family monsFount
+	font-size rem(14)
+	line-height 1.8
+	
+.btn
+	display inline-block
+	padding 21px 25px 18px
+	border-radius 6px
+	color #fff
+	font-family navFount
+	font-size rem(16)
+	
+.btn-projects
+	background-color buttonPropertiesColor
+
+.btn-buyers
+	background-color buttonBuyersColor
+	
+.feature_projects
+	width 100%
+	max-width 980px
+	margin 0 auto
+	
+.feature_projects-title
+	color paragraphColor
+	font-family navFount
+	font-size rem(30)
+	margin-bottom 33px
+
+.feature_projects-desc
+	display flex
+	justify-content space-between
+	flex-wrap wrap
+	align-items center
+	color descColor
+	font-family mainFount
+	font-size rem(16)
+	margin-bottom 70px
+	
+	span
+		width 100%
+		max-width 670px
+		line-height 1.8
+	
+.becom_member
+	border 1px solid gray
+	padding 20px
+	color descColor
+	font-family navFount
+	font-size rem(16)
+	cursor pointer
+	
+.card-box
+	display flex
+	justify-content space-between
+	flex-wrap wrap
+	width 100%
+	max-width 977px
+	
+.card
+	width 100%
+	max-width 300px
+	border-radius 6px
+	background-color cardBoxColor
+	
+.card-photo
+	position relative
+	width 100%
+	max-width 300px
+	
+.icon-rectangle
+	position absolute
+	size(72px)
+	fill red
+
+.photo-1
+	width 100%
+	max-width 300px
+	height 226px
+	background url('../img/content/project-1.jpg') 0 0 no-repeat
+	background-size cover
+	
+.photo-2
+	size(300px,226px)
+	background url('../img/content/project-2.jpg') 0 0 no-repeat
+	background-size cover
+	
+.photo-3
+	size(300px,226px)
+	background url('../img/content/project-3.jpg') 0 0 no-repeat
+	background-size cover
+	
+.new
+	position absolute
+	top 0
+	left 0
+	size(72px)
+	text-transform uppercase
+	
+	span
+		display block
+		color #fff
+		transform rotate(-45deg)
+	
+.price
+	position absolute
+	top 170px
+	left 160px
+	display inline-block
+	padding 12px 9px
+	border-radius 3px
+	background-color buttonPropertiesColor
+	color #fff
+	font-size rem(14)
+
+.card-text
+	border 1px solid cardBorderColor
+	border-radius 0 0 6px 6px
+	padding 30px 23px 27px
+	
+.card-title
+	margin-bottom 20px
+
+	span
+		color cardTitleColor
+		font-family navFount
+		font-size rem(18)
+		
+	span:last-child
+		text-transform uppercase
+		
+.card-desc
+	margin-bottom 23px
+	color cardTitleColor
+	font-size rem(16)
+	line-height 1.8
+	
+.days-range
+	appearance none
+	margin-bottom 21px
+	border-radius 5px
+	width 253px
+	height 13px
+	background-image linear-gradient(to right, #add136 0%,#add136 20%,#e3e3e3 20%,#e3e3e3 100%)
+	
+.days-range::-webkit-slider-thumb
+	appearance none
+	
+.range-desc
+	margin-bottom 27px
+	padding-bottom 20px
+	border-bottom 1px solid cardBorderColor
+	color rangeDescColor
+	font-family navFount
+	font-size rem(12)
+	
+	span:first-child
+		margin-right 126px
+		
+.project-ditails-box
+	display block
+	text-align right
+	
+.project-ditails
+	display inline-block
+	padding-right 23px
+	color projectDitailsColor
+	font-family navFount
+	font-size rem(16)
+	
+.icon-tryangle
+	size(12px,16px)
+	
+/*Community*/
+
+.community
+	width 100%
+	max-width 1300px
+
+.community-pict
+	padding-top 81px
+	background url('../img/content/bg-bottom.png') 0 0 no-repeat
+	background-size cover
+	
+.community-title
+	margin-bottom 50px
+	text-align center
+	color buttonBuyersColor
+	font-family navFount
+	font-size rem(30)
+	
+.community-desc
+	width 100%
+	max-width 915px
+	margin 0 auto 103px
+	color descColor
+	font-family mainFount
+	font-size rem(16)
+	line-height 1.5
+	
+.community-member
+	width 100%
+	max-width 947px
+	margin 0 auto
+	
+.commit-box
+	display inline-block
+	width 100%
+	max-width 395px
+
+.member-commit
+	position relative
+	display inline-block
+	margin-bottom 34px
+	padding 27px 41px
+	border-radius 8px
+	background-color #fff
+	text-align center
+	
+.commit-box-1
+	margin-right 148px
+	
+.member-commit:after
+	content ''
+	position absolute
+	left 78px
+	bottom -26px
+	border 13px solid transparent
+	border-left 13px solid #fff
+	border-top 13px solid #fff
+
+.member-commit-title
+	margin-bottom 25px
+	color buttonBuyersColor
+	font-family navFount
+	font-size rem(21)
+	
+.member-commit-desc
+	color descColor
+	font-family mainFount
+	font-size rem(16)
+	line-height 1.5
+
+.member-box-1,
+.member-box-2
+	margin 0 0 62px 50px
+	display flex
+	justify-content flex-start
+	flex-wrap wrap
+	align-items center
+
+
+.member-photo-1
+	border-radius 10px
+	size(60px)
+	background url('../img/content/david-gray.jpg') 0 0 no-repeat
+	background-size cover
+
+.member-photo-2
+	border-radius 10px
+	size(60px)
+	background url('../img/content/david-blue.jpg') 0 0 no-repeat
+	background-size cover
+
+.member-name
+	margin-left 10px
+	color cardTitleColor
+	font-family monsFount
+	font-size rem(16)
